@@ -1,0 +1,162 @@
+.utc {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  color: white;
+}
+.analog {
+    position: relative;
+    margin: 100px auto 0;
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    border-radius: 50%;
+    width: 500px;
+    border: 20px solid gray;
+    box-shadow: 0 2vw 4vw -1vw rgba(0,0,0,0.8);
+}
+
+.block {
+  width: 200px;
+  height: 60px;
+  border-radius: 40px;
+  position: absolute;
+  text-align: center;
+  top: 110px;
+  left: 150px;
+  padding: 8px;
+  .country {
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Neonderthaw', cursive;
+  }
+    .date {
+      line-height: 60px;
+      font-size: 30px;
+      color: white;
+
+    }
+  }
+  
+.digital-clock{
+  font-size: 40px;
+  color: white;
+  font-weight: bolder;
+  font-family: 'Neonderthaw', cursive;
+}
+
+.hand {
+  position: absolute;
+  transform-origin: 100% 100%;
+}
+
+.hr {
+  background-color: #f44336;
+  width: 5px;
+  height: 150px;
+  top: 97px;
+  left: 49.5%;
+}
+
+.min {
+  background-color: #3f51b5;
+  width: 5px;
+  height: 230px;
+  top: 17px;
+  left: 49.5%;
+}
+
+.sec {
+  background-color: #9e9e9e;
+  width: 5px;
+  height: 180px;
+  top: 65px;
+  left: 248px;
+}
+
+.center {
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  width: 12px;
+  height: 12px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.digital-clock {
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  font-size: 2em;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.hour {
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.hour-1 {
+    top: 55px;
+    right: 115px;
+}
+
+.hour-2 {
+    top: 130px;
+    right: 40px;
+}
+
+.hour-3 {
+    top: 240px;
+    right: 10px;
+}
+
+.hour-4 {
+    top: 355px;
+    right: 50px;
+}
+
+.hour-5 {
+    top: 430px;
+    right: 130px;
+}
+
+.hour-6 {
+    bottom: 18px;
+    left: 240px;
+}
+
+.hour-7 {
+    top: 430px;
+    left: 130px;
+}
+
+.hour-8 {
+    top: 350px;
+    left: 46px;
+}
+
+.hour-9 {
+    top: 240px;
+    left: 16px;
+}
+
+.hour-10 {
+    top: 135px;
+    left: 40px;
+}
+
+.hour-11 {
+    top: 55px;
+    left: 115px;
+}
+
+.hour-12 {
+    top: 18px;
+    left: 230px;
+}
